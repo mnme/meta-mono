@@ -11,6 +11,7 @@ SRC_URI = "https://github.com/DynamicDevices/mono-helloworld/releases/download/v
 
 inherit autotools-brokensep
 inherit mono
+inherit pkgconfig
 
 DEPENDS = "mono"
 RDEPENDS_${PN} = "mono"
