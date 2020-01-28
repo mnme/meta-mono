@@ -13,8 +13,8 @@ inherit autotools-brokensep
 inherit mono
 inherit pkgconfig
 
-DEPENDS = "mono"
-RDEPENDS_${PN} = "mono"
+#DEPENDS = "mono"
+#RDEPENDS_${PN} = "mono"
 
 EDEPENDS_X11 = "libgdiplus"
 ERDEPENDS_X11 = "libgdiplus"
